@@ -40,6 +40,7 @@ graf44
 ```
 Untuk Gambar 4.5
 ```sh
+library(ggplot2)
 ter_1 <- read.csv(file="termostabilitas_fix.csv")
 ter_1$Waktu <- factor(ter_1$Waktu)
 melt_ter1 <- melt(ter_1)
